@@ -1,6 +1,43 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #550;
+}
 h1 {
   color: black;
   font-family:'Sugarpunch DEMO';
   font-size: 60px;
   text-align: center;
+}
+body {
+  margin: 8;
+  font-family:sans-serif;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover {
+    background-color: #CC000000;
+    color:hsla(0,0%,0%,0.1);
 }
